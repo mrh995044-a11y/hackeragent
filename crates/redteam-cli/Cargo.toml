@@ -1,0 +1,14 @@
+[package]
+name = "redteam-cli"
+version = "0.1.0"
+edition = "2024"
+
+[[bin]]
+name = "hackeragent"
+path = "src/main.rs"
+
+[dependencies]
+redteam-core = { path = "../redteam-core" }
+redteam-policy = { path = "../redteam-policy" }
+redteam-providers = { path = "../redteam-providers" }
+redteam-storage = { path = "../redteam-storage" }

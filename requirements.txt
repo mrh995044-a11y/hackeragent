@@ -1,0 +1,4 @@
+requests>=2.31
+# Optional — only if you prefer the vendor SDKs over raw HTTP:
+# openai>=1.0
+# anthropic>=0.30

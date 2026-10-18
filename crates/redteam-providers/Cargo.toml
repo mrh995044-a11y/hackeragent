@@ -1,0 +1,8 @@
+[package]
+name = "redteam-providers"
+version = "0.1.0"
+edition = "2024"
+
+[dependencies]
+redteam-core = { path = "../redteam-core" }
+redteam-policy = { path = "../redteam-policy" }
